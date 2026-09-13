@@ -40,3 +40,17 @@ uvicorn app.main:app --reload
 Week 1 complete (routing + scoped agents, docs). Week 2 in progress:
 memory, Agentic RAG retrieval sub-graph (see DESIGN.md §3a), guardrails,
 human-approval queue.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues (DivyanshuRaj7/support-agent). See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default five canonical labels (needs-triage, needs-info, ready-for-agent, ready-for-human, wontfix). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context layout (one CONTEXT.md + docs/adr/ at root, created lazily). See `docs/agents/domain.md`.
